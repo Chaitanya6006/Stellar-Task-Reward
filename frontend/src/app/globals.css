@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* glass card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(168,85,247,0.3);
+}
+
+/* badge */
+.badge {
+  padding: 8px 12px;
+  background: #1e293b;
+  border-radius: 8px;
+}
+
+.badge:hover {
+  background: #7c3aed;
+}
