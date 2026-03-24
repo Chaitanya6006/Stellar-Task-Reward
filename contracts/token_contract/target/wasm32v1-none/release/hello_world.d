@@ -1,0 +1,1 @@
+C:\Users\Admin\stellar-task-reward\token_contract\target\wasm32v1-none\release\hello_world.wasm: C:\Users\Admin\stellar-task-reward\token_contract\contracts\hello-world\src\lib.rs C:\Users\Admin\stellar-task-reward\token_contract\contracts\hello-world\src\test.rs
