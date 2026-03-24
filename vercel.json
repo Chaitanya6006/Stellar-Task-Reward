@@ -1,0 +1,9 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet .",
+  "installCommand": "npm install",
+  "outputDirectory": ".next",
+  "projectId": "stellar-task-reward",
+  "rootDirectory": "frontend"
+}
